@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Started Executing the @BeforeSuite annotation method block]]>
+    </line>
+    <line>
+      <![CDATA[Before any @Test in the suite first @BeoreSuite annotation method block will be executed]]>
+    </line>
+    <line>
+      <![CDATA[This annotation method will be repeat for every test tag<test name= "testtag" >]]>
+    </line>
+    <line>
+      <![CDATA[Before any @Test in the test tag inside execution suite first @BeoreTest annotation method block will be executed]]>
+    </line>
+    <line>
+      <![CDATA[@BeforeClass is current class level annotation]]>
+    </line>
+    <line>
+      <![CDATA[interface refvar=new implementedclass()]]>
+    </line>
+    <line>
+      <![CDATA[maximize the window]]>
+    </line>
+    <line>
+      <![CDATA[add implicit wait]]>
+    </line>
+    <line>
+      <![CDATA[open the url in browser]]>
+    </line>
+    <line>
+      <![CDATA[create Object for WebDriverWait class]]>
+    </line>
+    <line>
+      <![CDATA[Launch the application url]]>
+    </line>
+    <line>
+      <![CDATA[wait for the page title---Google]]>
+    </line>
+    <line>
+      <![CDATA[Started executing the searchTest method for keyword:  selenium]]>
+    </line>
+    <line>
+      <![CDATA[type theseleniumkeyword in search editbox]]>
+    </line>
+    <line>
+      <![CDATA[submit on the search editbox]]>
+    </line>
+    <line>
+      <![CDATA[verify the search results page title - Google Search]]>
+    </line>
+    <line>
+      <![CDATA[verify the search results count text is present in the webpage or not.//div[@id='result-stats']]]>
+    </line>
+    <line>
+      <![CDATA[fetch the search results count text and extract the only count from search results count text]]>
+    </line>
+    <line>
+      <![CDATA[search result text forselenium   is   About 67,000,000 results (0.49 seconds) ]]>
+    </line>
+    <line>
+      <![CDATA[search result count for  selenium  is  :67,000,000]]>
+    </line>
+    <line>
+      <![CDATA[search result count for  selenium  in primitive format:  67000000]]>
+    </line>
+    <line>
+      <![CDATA[End of searchTest() for:  selenium  completed]]>
+    </line>
+    <line>
+      <![CDATA[started executing the @AfterMethod]]>
+    </line>
+    <line>
+      <![CDATA[Clear the cathe]]>
+    </line>
+    <line>
+      <![CDATA[Launch the application url]]>
+    </line>
+    <line>
+      <![CDATA[wait for the page title---Google]]>
+    </line>
+    <line>
+      <![CDATA[Started executing the searchTest method for keyword:  UFI]]>
+    </line>
+    <line>
+      <![CDATA[type theUFIkeyword in search editbox]]>
+    </line>
+    <line>
+      <![CDATA[submit on the search editbox]]>
+    </line>
+    <line>
+      <![CDATA[verify the search results page title - Google Search]]>
+    </line>
+    <line>
+      <![CDATA[verify the search results count text is present in the webpage or not.//div[@id='result-stats']]]>
+    </line>
+    <line>
+      <![CDATA[fetch the search results count text and extract the only count from search results count text]]>
+    </line>
+    <line>
+      <![CDATA[search result text forUFI   is   About 17,100,000 results (0.46 seconds) ]]>
+    </line>
+    <line>
+      <![CDATA[search result count for  UFI  is  :17,100,000]]>
+    </line>
+    <line>
+      <![CDATA[search result count for  UFI  in primitive format:  17100000]]>
+    </line>
+    <line>
+      <![CDATA[End of searchTest() for:  UFI  completed]]>
+    </line>
+    <line>
+      <![CDATA[started executing the @AfterMethod]]>
+    </line>
+    <line>
+      <![CDATA[Clear the cathe]]>
+    </line>
+    <line>
+      <![CDATA[Launch the application url]]>
+    </line>
+    <line>
+      <![CDATA[wait for the page title---Google]]>
+    </line>
+    <line>
+      <![CDATA[Started executing the searchTest method for keyword:  cucumber]]>
+    </line>
+    <line>
+      <![CDATA[type thecucumberkeyword in search editbox]]>
+    </line>
+    <line>
+      <![CDATA[submit on the search editbox]]>
+    </line>
+    <line>
+      <![CDATA[verify the search results page title - Google Search]]>
+    </line>
+    <line>
+      <![CDATA[verify the search results count text is present in the webpage or not.//div[@id='result-stats']]]>
+    </line>
+    <line>
+      <![CDATA[fetch the search results count text and extract the only count from search results count text]]>
+    </line>
+    <line>
+      <![CDATA[search result text forcucumber   is   About 341,000,000 results (0.41 seconds) ]]>
+    </line>
+    <line>
+      <![CDATA[search result count for  cucumber  is  :341,000,000]]>
+    </line>
+    <line>
+      <![CDATA[search result count for  cucumber  in primitive format:  341000000]]>
+    </line>
+    <line>
+      <![CDATA[End of searchTest() for:  cucumber  completed]]>
+    </line>
+    <line>
+      <![CDATA[started executing the @AfterMethod]]>
+    </line>
+    <line>
+      <![CDATA[Clear the cathe]]>
+    </line>
+    <line>
+      <![CDATA[quit the browser]]>
+    </line>
+    <line>
+      <![CDATA[After all @Test in the test tag have completed then @AfterSuite annotation method block will be executed]]>
+    </line>
+    <line>
+      <![CDATA[Started Executing the @AfetrSuite annotation method block]]>
+    </line>
+    <line>
+      <![CDATA[After all @Test in the suite have completed finally @AfterSuite method annotation method block will be executed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-05-19T12:16:04 AEST" name="Default suite" finished-at="2022-05-19T12:16:45 AEST" duration-ms="41533">
+    <groups>
+    </groups>
+    <test started-at="2022-05-19T12:16:04 AEST" name="Default test" finished-at="2022-05-19T12:16:45 AEST" duration-ms="41533">
+      <class name="testngprogrammes.GoogleSearchTestNG">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testngprogrammes.GoogleSearchTestNG@4f18837a]" started-at="2022-05-19T12:16:04 AEST" name="beforeSuite" finished-at="2022-05-19T12:16:04 AEST" duration-ms="7" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Started Executing the @BeforeSuite annotation method block]]>
+            </line>
+            <line>
+              <![CDATA[Before any @Test in the suite first @BeoreSuite annotation method block will be executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testngprogrammes.GoogleSearchTestNG@4f18837a]" started-at="2022-05-19T12:16:04 AEST" name="beforeTest" finished-at="2022-05-19T12:16:04 AEST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[This annotation method will be repeat for every test tag<test name= "testtag" >]]>
+            </line>
+            <line>
+              <![CDATA[Before any @Test in the test tag inside execution suite first @BeoreTest annotation method block will be executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testngprogrammes.GoogleSearchTestNG@4f18837a]" started-at="2022-05-19T12:16:04 AEST" name="beforeClass" finished-at="2022-05-19T12:16:15 AEST" duration-ms="10556" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@BeforeClass is current class level annotation]]>
+            </line>
+            <line>
+              <![CDATA[interface refvar=new implementedclass()]]>
+            </line>
+            <line>
+              <![CDATA[maximize the window]]>
+            </line>
+            <line>
+              <![CDATA[add implicit wait]]>
+            </line>
+            <line>
+              <![CDATA[open the url in browser]]>
+            </line>
+            <line>
+              <![CDATA[create Object for WebDriverWait class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testngprogrammes.GoogleSearchTestNG@4f18837a]" started-at="2022-05-19T12:16:15 AEST" name="beforeMethod" finished-at="2022-05-19T12:16:16 AEST" duration-ms="1150" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launch the application url]]>
+            </line>
+            <line>
+              <![CDATA[wait for the page title---Google]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchTest(java.lang.String)[pri:0, instance:testngprogrammes.GoogleSearchTestNG@4f18837a]" started-at="2022-05-19T12:16:16 AEST" name="searchTest" data-provider="dp" finished-at="2022-05-19T12:16:21 AEST" duration-ms="5394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Started executing the searchTest method for keyword:  selenium]]>
+            </line>
+            <line>
+              <![CDATA[type theseleniumkeyword in search editbox]]>
+            </line>
+            <line>
+              <![CDATA[submit on the search editbox]]>
+            </line>
+            <line>
+              <![CDATA[verify the search results page title - Google Search]]>
+            </line>
+            <line>
+              <![CDATA[verify the search results count text is present in the webpage or not.//div[@id='result-stats']]]>
+            </line>
+            <line>
+              <![CDATA[fetch the search results count text and extract the only count from search results count text]]>
+            </line>
+            <line>
+              <![CDATA[search result text forselenium   is   About 67,000,000 results (0.49 seconds) ]]>
+            </line>
+            <line>
+              <![CDATA[search result count for  selenium  is  :67,000,000]]>
+            </line>
+            <line>
+              <![CDATA[search result count for  selenium  in primitive format:  67000000]]>
+            </line>
+            <line>
+              <![CDATA[End of searchTest() for:  selenium  completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testngprogrammes.GoogleSearchTestNG@4f18837a]" started-at="2022-05-19T12:16:21 AEST" name="afterMethod" finished-at="2022-05-19T12:16:21 AEST" duration-ms="20" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[started executing the @AfterMethod]]>
+            </line>
+            <line>
+              <![CDATA[Clear the cathe]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testngprogrammes.GoogleSearchTestNG@4f18837a]" started-at="2022-05-19T12:16:21 AEST" name="beforeMethod" finished-at="2022-05-19T12:16:26 AEST" duration-ms="4553" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launch the application url]]>
+            </line>
+            <line>
+              <![CDATA[wait for the page title---Google]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchTest(java.lang.String)[pri:0, instance:testngprogrammes.GoogleSearchTestNG@4f18837a]" started-at="2022-05-19T12:16:26 AEST" name="searchTest" data-provider="dp" finished-at="2022-05-19T12:16:35 AEST" duration-ms="9701" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UFI]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Started executing the searchTest method for keyword:  UFI]]>
+            </line>
+            <line>
+              <![CDATA[type theUFIkeyword in search editbox]]>
+            </line>
+            <line>
+              <![CDATA[submit on the search editbox]]>
+            </line>
+            <line>
+              <![CDATA[verify the search results page title - Google Search]]>
+            </line>
+            <line>
+              <![CDATA[verify the search results count text is present in the webpage or not.//div[@id='result-stats']]]>
+            </line>
+            <line>
+              <![CDATA[fetch the search results count text and extract the only count from search results count text]]>
+            </line>
+            <line>
+              <![CDATA[search result text forUFI   is   About 17,100,000 results (0.46 seconds) ]]>
+            </line>
+            <line>
+              <![CDATA[search result count for  UFI  is  :17,100,000]]>
+            </line>
+            <line>
+              <![CDATA[search result count for  UFI  in primitive format:  17100000]]>
+            </line>
+            <line>
+              <![CDATA[End of searchTest() for:  UFI  completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testngprogrammes.GoogleSearchTestNG@4f18837a]" started-at="2022-05-19T12:16:35 AEST" name="afterMethod" finished-at="2022-05-19T12:16:35 AEST" duration-ms="27" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[started executing the @AfterMethod]]>
+            </line>
+            <line>
+              <![CDATA[Clear the cathe]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testngprogrammes.GoogleSearchTestNG@4f18837a]" started-at="2022-05-19T12:16:35 AEST" name="beforeMethod" finished-at="2022-05-19T12:16:39 AEST" duration-ms="4088" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launch the application url]]>
+            </line>
+            <line>
+              <![CDATA[wait for the page title---Google]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchTest(java.lang.String)[pri:0, instance:testngprogrammes.GoogleSearchTestNG@4f18837a]" started-at="2022-05-19T12:16:39 AEST" name="searchTest" data-provider="dp" finished-at="2022-05-19T12:16:45 AEST" duration-ms="5872" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cucumber]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Started executing the searchTest method for keyword:  cucumber]]>
+            </line>
+            <line>
+              <![CDATA[type thecucumberkeyword in search editbox]]>
+            </line>
+            <line>
+              <![CDATA[submit on the search editbox]]>
+            </line>
+            <line>
+              <![CDATA[verify the search results page title - Google Search]]>
+            </line>
+            <line>
+              <![CDATA[verify the search results count text is present in the webpage or not.//div[@id='result-stats']]]>
+            </line>
+            <line>
+              <![CDATA[fetch the search results count text and extract the only count from search results count text]]>
+            </line>
+            <line>
+              <![CDATA[search result text forcucumber   is   About 341,000,000 results (0.41 seconds) ]]>
+            </line>
+            <line>
+              <![CDATA[search result count for  cucumber  is  :341,000,000]]>
+            </line>
+            <line>
+              <![CDATA[search result count for  cucumber  in primitive format:  341000000]]>
+            </line>
+            <line>
+              <![CDATA[End of searchTest() for:  cucumber  completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testngprogrammes.GoogleSearchTestNG@4f18837a]" started-at="2022-05-19T12:16:45 AEST" name="afterMethod" finished-at="2022-05-19T12:16:45 AEST" duration-ms="17" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[started executing the @AfterMethod]]>
+            </line>
+            <line>
+              <![CDATA[Clear the cathe]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testngprogrammes.GoogleSearchTestNG@4f18837a]" started-at="2022-05-19T12:16:45 AEST" name="afterClass" finished-at="2022-05-19T12:16:45 AEST" duration-ms="112" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[quit the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testngprogrammes.GoogleSearchTestNG@4f18837a]" started-at="2022-05-19T12:16:45 AEST" name="afterTest" finished-at="2022-05-19T12:16:45 AEST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After all @Test in the test tag have completed then @AfterSuite annotation method block will be executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testngprogrammes.GoogleSearchTestNG@4f18837a]" started-at="2022-05-19T12:16:46 AEST" name="afterSuite" finished-at="2022-05-19T12:16:46 AEST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Started Executing the @AfetrSuite annotation method block]]>
+            </line>
+            <line>
+              <![CDATA[After all @Test in the suite have completed finally @AfterSuite method annotation method block will be executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testngprogrammes.GoogleSearchTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

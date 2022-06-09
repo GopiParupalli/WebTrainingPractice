@@ -1,0 +1,181 @@
+<html>
+<head>
+<title>TestNG:  ParametersTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ParametersTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Apr 26 20:03:43 AEST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>63 seconds (63162 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testngprogrammes.DependsOnMethodsAndparametersTest.linkedinHomePageTest()'><b>linkedinHomePageTest</b><br>Test class: testngprogrammes.DependsOnMethodsAndparametersTest<br/>
+<a href="#Output-1760763936" onClick='toggleBox("Output-1760763936", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1760763936" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1760763936">
+open the url in browser<br/>
+wait and verify the LinkedIn: Log In or Sign Up page title<br/>
+Click on Signin link in Linkedin Home page <br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to be &quot;LinkedIn Login, Sign in | LinkedIn1&quot;. Current title: &quot;LinkedIn Login, Sign in | LinkedIn&quot; (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;Gopis-MacBook-Pro-2.local&apos;, ip: &apos;fe80:0:0:0:d9:1d1f:64ac:db5d%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.2.1&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/2j/fl67lngn0fl...}, goog:chromeOptions: {debuggerAddress: localhost:62862}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:62862/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 46db4d6d43fad73945191e72f0f6e775
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at testngprogrammes.DependsOnMethodsAndparametersTest.linkedinHomePageTest(DependsOnMethodsAndparametersTest.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1760763936", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1760763936'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to be &quot;LinkedIn Login, Sign in | LinkedIn1&quot;. Current title: &quot;LinkedIn Login, Sign in | LinkedIn&quot; (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;Gopis-MacBook-Pro-2.local&apos;, ip: &apos;fe80:0:0:0:d9:1d1f:64ac:db5d%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.2.1&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/2j/fl67lngn0fl...}, goog:chromeOptions: {debuggerAddress: localhost:62862}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:62862/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 46db4d6d43fad73945191e72f0f6e775
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at testngprogrammes.DependsOnMethodsAndparametersTest.linkedinHomePageTest(DependsOnMethodsAndparametersTest.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>36</td>
+<td>testngprogrammes.DependsOnMethodsAndparametersTest@52e6fdee</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testngprogrammes.DependsOnMethodsAndparametersTest.doLoginTest()'><b>doLoginTest</b><br>Test class: testngprogrammes.DependsOnMethodsAndparametersTest<br>Parameters: gopi3610@gmail.com, numbers58110<br/>
+<a href="#Output-299162582" onClick='toggleBox("Output-299162582", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-299162582" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-299162582">
+Started executing the doLoginTest()....<br/>
+Verify the Sign in Header text<br/>
+type the username in username edibtox<br/>
+type the pasword in passowrd edibtox<br/>
+click on login button<br/>
+wait for the page tile- Feed | LinkedIn<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>testngprogrammes.DependsOnMethodsAndparametersTest@52e6fdee</td></tr>
+<tr>
+<td title='testngprogrammes.DependsOnMethodsAndparametersTest.doLogoutTest()'><b>doLogoutTest</b><br>Test class: testngprogrammes.DependsOnMethodsAndparametersTest<br/>
+<a href="#Output-1022830989" onClick='toggleBox("Output-1022830989", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1022830989" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1022830989">
+Started executing the doLogoutTest()...<br/>
+wait for the profile image icon<br/>
+click on profile image icon<br/>
+click on logout link<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testngprogrammes.DependsOnMethodsAndparametersTest@52e6fdee</td></tr>
+</table><p>
+</body>
+</html>

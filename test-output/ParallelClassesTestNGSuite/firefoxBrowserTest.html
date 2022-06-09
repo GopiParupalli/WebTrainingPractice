@@ -1,0 +1,125 @@
+<html>
+<head>
+<title>TestNG:  firefoxBrowserTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>firefoxBrowserTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Apr 27 20:21:26 AEST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>15 seconds (15010 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testngprogrammes.DependsOnMethodsAndparametersTest.doLoginTest()'><b>doLoginTest</b><br>Test class: testngprogrammes.DependsOnMethodsAndparametersTest<br>Parameters: gopi3610@gmail.com, numbers58110<br/>
+<a href="#Output-1642905321" onClick='toggleBox("Output-1642905321", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1642905321" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1642905321">
+Started executing the doLoginTest()....<br/>
+Verify the Sign in Header text<br/>
+type the username in username edibtox<br/>
+type the pasword in passowrd edibtox<br/>
+click on login button<br/>
+wait for the page tile- Feed | LinkedIn<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>testngprogrammes.DependsOnMethodsAndparametersTest@79e2c065</td></tr>
+<tr>
+<td title='testngprogrammes.DependsOnMethodsAndparametersTest.linkedinHomePageTest()'><b>linkedinHomePageTest</b><br>Test class: testngprogrammes.DependsOnMethodsAndparametersTest<br/>
+<a href="#Output-232200992" onClick='toggleBox("Output-232200992", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-232200992" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-232200992">
+open the url in browser<br/>
+wait and verify the LinkedIn: Log In or Sign Up page title<br/>
+Click on Signin link in Linkedin Home page <br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>testngprogrammes.DependsOnMethodsAndparametersTest@79e2c065</td></tr>
+<tr>
+<td title='testngprogrammes.DependsOnMethodsAndparametersTest.doLogoutTest()'><b>doLogoutTest</b><br>Test class: testngprogrammes.DependsOnMethodsAndparametersTest<br/>
+<a href="#Output-1684580278" onClick='toggleBox("Output-1684580278", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1684580278" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1684580278">
+Started executing the doLogoutTest()...<br/>
+wait for the profile image icon<br/>
+click on profile image icon<br/>
+click on logout link<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testngprogrammes.DependsOnMethodsAndparametersTest@79e2c065</td></tr>
+</table><p>
+</body>
+</html>

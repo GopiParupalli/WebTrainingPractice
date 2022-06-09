@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ParallelClassesTestNGSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ParallelClassesTestNGTest(failed)">
+    <parameter name="uname" value="gopi3610@gmail.com"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="pwd" value="numbers58110"/>
+    <classes>
+      <class name="testngprogrammes.DependsOnMethodsAndparametersTest">
+        <methods>
+          <include name="doLoginTest"/>
+          <include name="doLogoutTest"/>
+          <include name="afterClass"/>
+          <include name="linkedinHomePageTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testngprogrammes.DependsOnMethodsAndparametersTest -->
+      <class name="testngprogrammes.SelectSuggestionBykeysTest">
+        <methods>
+          <include name="autoSuggestionBykeysTest"/>
+          <include name="afterClass"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testngprogrammes.SelectSuggestionBykeysTest -->
+      <class name="testngprogrammes.GoogleSuggestionTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="googleSuggestionTest"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testngprogrammes.GoogleSuggestionTest -->
+    </classes>
+  </test> <!-- ParallelClassesTestNGTest(failed) -->
+</suite> <!-- Failed suite [ParallelClassesTestNGSuite] -->

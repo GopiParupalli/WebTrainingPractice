@@ -1,0 +1,142 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu May 19 12:16:04 AEST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>41 seconds (41533 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testngprogrammes.GoogleSearchTestNG.searchTest()'><b>searchTest</b><br>Test class: testngprogrammes.GoogleSearchTestNG<br>Parameters: UFI<br/>
+<a href="#Output-1083615749" onClick='toggleBox("Output-1083615749", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1083615749" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1083615749">
+Started executing the searchTest method for keyword:  UFI<br/>
+type theUFIkeyword in search editbox<br/>
+submit on the search editbox<br/>
+verify the search results page title - Google Search<br/>
+verify the search results count text is present in the webpage or not.//div[@id='result-stats']<br/>
+fetch the search results count text and extract the only count from search results count text<br/>
+search result text forUFI   is   About 17,100,000 results (0.46 seconds) <br/>
+search result count for  UFI  is  :17,100,000<br/>
+search result count for  UFI  in primitive format:  17100000<br/>
+End of searchTest() for:  UFI  completed<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>testngprogrammes.GoogleSearchTestNG@4f18837a</td></tr>
+<tr>
+<td title='testngprogrammes.GoogleSearchTestNG.searchTest()'><b>searchTest</b><br>Test class: testngprogrammes.GoogleSearchTestNG<br>Parameters: cucumber<br/>
+<a href="#Output-185583672" onClick='toggleBox("Output-185583672", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-185583672" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-185583672">
+Started executing the searchTest method for keyword:  cucumber<br/>
+type thecucumberkeyword in search editbox<br/>
+submit on the search editbox<br/>
+verify the search results page title - Google Search<br/>
+verify the search results count text is present in the webpage or not.//div[@id='result-stats']<br/>
+fetch the search results count text and extract the only count from search results count text<br/>
+search result text forcucumber   is   About 341,000,000 results (0.41 seconds) <br/>
+search result count for  cucumber  is  :341,000,000<br/>
+search result count for  cucumber  in primitive format:  341000000<br/>
+End of searchTest() for:  cucumber  completed<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>testngprogrammes.GoogleSearchTestNG@4f18837a</td></tr>
+<tr>
+<td title='testngprogrammes.GoogleSearchTestNG.searchTest()'><b>searchTest</b><br>Test class: testngprogrammes.GoogleSearchTestNG<br>Parameters: selenium<br/>
+<a href="#Output-992955027" onClick='toggleBox("Output-992955027", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-992955027" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-992955027">
+Started executing the searchTest method for keyword:  selenium<br/>
+type theseleniumkeyword in search editbox<br/>
+submit on the search editbox<br/>
+verify the search results page title - Google Search<br/>
+verify the search results count text is present in the webpage or not.//div[@id='result-stats']<br/>
+fetch the search results count text and extract the only count from search results count text<br/>
+search result text forselenium   is   About 67,000,000 results (0.49 seconds) <br/>
+search result count for  selenium  is  :67,000,000<br/>
+search result count for  selenium  in primitive format:  67000000<br/>
+End of searchTest() for:  selenium  completed<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>testngprogrammes.GoogleSearchTestNG@4f18837a</td></tr>
+</table><p>
+</body>
+</html>

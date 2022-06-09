@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParametersSuite">
+  <test thread-count="5" name="ParametersTest">
+<parameter name="uname" value="gopi3610@gmail.com"></parameter>
+<parameter name="pwd" value="numbers58110"></parameter>
+    <classes>
+      <class name="testngprogrammes.DependsOnMethodsAndparametersTest"/>
+    </classes>
+  </test> <!-- ParametersTest -->
+</suite> <!-- ParametersSuite -->
